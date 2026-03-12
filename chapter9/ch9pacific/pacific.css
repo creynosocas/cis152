@@ -207,12 +207,12 @@ td {
 .text { 
   text-align: left; 
 }
+tr:nth-of-type(odd) {
+  background-color: #ffcd6f ; 
+}
 tr:hover {
   background-color: #e0ffe0;
   color: #003300;
-}
-tr:nth-of-type(odd) {
-  background-color: #ffcd6f ; 
 }
 
 
@@ -291,3 +291,4 @@ tr:nth-of-type(odd) {
 
 
  
+
