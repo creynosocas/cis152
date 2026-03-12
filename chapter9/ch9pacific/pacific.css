@@ -188,6 +188,8 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+ tr 
+{ transition: background-color 0.3s ease, color 0.3s ease; }
 
 th { 
   background-color: #1976d2;
@@ -205,9 +207,14 @@ td {
 .text { 
   text-align: left; 
 }
+tr:hover {
+  background-color: #e0ffe0;
+  color: #003300;
+}
 tr:nth-of-type(odd) {
   background-color: #ffcd6f ; 
 }
+
 
 @media (max-width: 32.5rem)
 {
@@ -281,5 +288,6 @@ tr:nth-of-type(odd) {
 
         }
        
+
 
  
