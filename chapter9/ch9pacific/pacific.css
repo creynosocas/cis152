@@ -188,13 +188,14 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
- tr 
-{ transition: background-color 0.3s ease, color 0.3s ease; }
 
 th { 
   background-color: #1976d2;
   color: #fff; 
 }
+
+ tr 
+{ transition: background-color 0.3s ease, color 0.3s ease; }
 
 td, th {
   border: 0.125rem solid #1976d2;
@@ -291,4 +292,5 @@ tr:hover {
 
 
  
+
 
